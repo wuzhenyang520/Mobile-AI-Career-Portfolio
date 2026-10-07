@@ -1,0 +1,54 @@
+# ==============================================
+# Mobile-AI-Career-Portfolio 根目录 .gitignore
+# 覆盖 Android-Compose / Flutter-Mixed / 微信小程序 / 支付宝小程序 / Node AI后端
+# ==============================================
+
+# -------- Android-Compose --------
+Android-Compose/.gradle/
+Android-Compose/build/
+Android-Compose/app/build/
+Android-Compose/.idea/
+Android-Compose/.kotlin/
+Android-Compose/captures/
+Android-Compose/local.properties
+Android-Compose/*.iml
+Android-Compose/.navigation/
+
+# -------- Flutter-Mixed --------
+Flutter-Mixed/build/
+Flutter-Mixed/.dart_tool/
+Flutter-Mixed/.pub/
+Flutter-Mixed/ios/Pods/
+Flutter-Mixed/android/.gradle/
+Flutter-Mixed/android/app/build/
+Flutter-Mixed/*.iml
+
+# -------- Ai-Node-Backend --------
+Ai-Node-Backend/node_modules/
+Ai-Node-Backend/.env
+Ai-Node-Backend/.env.*
+Ai-Node-Backend/package-lock.json
+Ai-Node-Backend/npm-debug.log*
+Ai-Node-Backend/yarn-debug.log*
+Ai-Node-Backend/yarn-error.log*
+Ai-Node-Backend/dist/
+Ai-Node-Backend/coverage/
+
+# -------- MiniProgram-Wechat 微信小程序 --------
+MiniProgram-Wechat/node_modules/
+MiniProgram-Wechat/miniprogram_npm/
+MiniProgram-Wechat/dist/
+
+# -------- MiniProgram-Alipay 支付宝小程序 --------
+MiniProgram-Alipay/node_modules/
+MiniProgram-Alipay/miniprogram_npm/
+MiniProgram-Alipay/dist/
+
+# -------- IDE、系统通用文件 --------
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
